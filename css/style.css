@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+h1 {
+    color:#28313f;
+    font-size: 3.5em;
+    line-height:20pt;
+   
+    font-family: 'Raleway';
+    text-align:center;
+}
+.center {
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top:-145px;
+    margin-left:-420px;
+}
+#name {
+    color:#d51b68;
+    font-family: 'Raleway'
+}
+.btn {
+    border:3px solid white;
+    background-color: inherit;
+    font-size:2em;
+    text-align: center;
+    padding:12px 25px 12px 25px;
+    font-family: 'Raleway';
+    cursor: pointer;
+    margin:10px -35px 10px 230px;;
+    
+}
+.btn:hover {
+    background: #eee;
+    border:6px solid #eee;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
