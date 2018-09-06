@@ -7,7 +7,8 @@ body {
 }
 .main {
     max-width: 1000px;
-    margin:auto;
+    width: 75%;
+    margin:0 auto;
 }
 .row {
     margin:8px -16px;
@@ -17,10 +18,11 @@ body {
 }
 .column {
     float:left;
-    width:18%;
+    width:19%;
 }
 .content {
     background-color:#e4efe3;
+   
     padding:9px;
 }
 
@@ -34,9 +36,14 @@ h1 {
 }
 h2 {
     color:#28313f;
-    font-family: 'Raleway';
+    font-family: 'Architects Daughter', cursive;
     text-align:center;
 
+}
+p {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 12px;
+    
 }
 .center {
     position:fixed;
