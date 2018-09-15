@@ -1,85 +1,69 @@
-body {
-    background-image: url("../images/bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* padding:10px; */
-    background-position: center center;
-    height: 100vh;
+html,body {
+    height:100%;
     width:100%;
-  
-}
-.main {
-    max-width: 1000px;
-    width: 75%;
-    margin:0 auto;
-}
-.row {
-    margin:8px -16px;
-}
-.row> .column {
-    padding:8px;
-}
-.column {
-    float:left;
-    width:19%;
-}
-.content {
-    background-color:#e4efe3;
-   
-    padding:9px;
+    font-family: sans-serif;
+    color:#fff;
 }
 
-.container h1 {
-    color:#28313f;
-    font-size: 3.5em;
-    line-height:20pt;
-   
-    font-family: 'Raleway';
-    text-align:center;
-    margin-top:3%;
-    padding: 5px;
-    
-}
-h2 {
-    color:#28313f;
-    font-family: 'Architects Daughter', cursive;
-    text-align:center;
-
-}
-p {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 12px;
-    font-weight: bold;
-    
-}
+#home {
+    background-image: url("../images/bg.jpg") ;
+    display: table;
+    height:100%;
+    width:100%;
+    background-size: cover;
 
 
-#name {
-    color:#d51b68;
-    font-family: 'Raleway'
 }
-.btn {
-    border:3px solid white;
-    background-color: inherit;
-    font-size:2em;
+.landing-text {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
-    padding:15px 25px 12px 25px;
-    font-family: 'Raleway';
-    cursor: pointer;
-    margin:10px -35px 10px 389px;
-    
-   
-    
 }
-.btn:hover {
-    background: #eee;
-    border:6px solid #eee;
-}
-a {
-    text-decoration: none;
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 700%;
+    line-height: 1.2em;
     color: black;
 
 }
-* {
-    box-sizing: border
+h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 280%;
+    font-weight: 200;
+    line-height: 1.2;
+    color: black;
+
+}
+h5 {
+    font-family: 'Bangers', cursive;
+    font-size: 180%;
+    font-weight: 90;
+    line-height: 1.2;
+    color: black;
+
+}
+#name {
+    color:#d51b68;
+    
+}
+.btn-default {
+    background-color: #fff;
+    color: #36342f;
+    font-size:160%;
+    font-weight: 100;
+
+}
+.btn-default:hover {
+    color:#FFF;
+    background-color: #36342f;
+}
+/* ******************** portfolio *************************** */
+p {
+    color:black;
+    font-family: 'Shojumaru', cursive;
+}
+.card {
+    margin-top:20px; 
+    border-radius: 10px;
+
 }
